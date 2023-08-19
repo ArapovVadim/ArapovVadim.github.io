@@ -22,7 +22,7 @@ async def buy_process(web_app_message):
     await bot.send_invoice(web_app_message.chat.id,
                            title='Laptop',
                            description='Description',
-                           provider_token='401643678:TEST:5ee0ec82-dca9-48b0-9f7f-5e1f4cc4584c',
+                           provider_token='',
                            currency='rub',
                            need_email=True,
                            prices=PRICE[f'{web_app_message.web_app_data.data}'],
