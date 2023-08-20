@@ -19,7 +19,7 @@ btn1.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали товар Мясо сушеное!");
+		tg.MainButton.setText("Перейти к оплате");
 		item = "1";
 		tg.MainButton.show();
 	}
@@ -30,7 +30,7 @@ btn2.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали товар Сервелат финский!");
+		tg.MainButton.setText("Перейти к оплате");
 		item = "2";
 		tg.MainButton.show();
 	}
@@ -41,7 +41,7 @@ btn3.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали товар Колбаски егерские!");
+		tg.MainButton.setText("Перейти к оплате");
 		item = "3";
 		tg.MainButton.show();
 	}
@@ -52,7 +52,7 @@ btn4.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали товар Тушенка свинина!");
+		tg.MainButton.setText("Перейти к оплате");
 		item = "4";
 		tg.MainButton.show();
 	}
@@ -63,7 +63,7 @@ btn5.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали товар Тушенка говядина!");
+		tg.MainButton.setText("Перейти к оплате");
 		item = "5";
 		tg.MainButton.show();
 	}
@@ -74,7 +74,7 @@ btn6.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали товар Колбаски венские!");
+		tg.MainButton.setText("Перейти к оплате");
 		item = "6";
 		tg.MainButton.show();
 	}
